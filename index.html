@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Julie 的閱讀書櫃 · Julie's Reading Bookshelf</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- 頂部手繪導覽列 -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="site-logo">
+        <span class="logo-icon">📖</span>
+        <span>Julie 的閱讀書櫃</span>
+      </a>
+      <nav>
+        <ul class="site-nav">
+          <li><a href="index.html" class="active">首頁總覽</a></li>
+          <li><a href="#categories">分類目錄</a></li>
+          <li><a href="#latest">最新心得</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 主內容容器 -->
+  <main class="container">
+
+    <!-- 首頁手帳手繪橫幅 -->
+    <section class="hero-section">
+      <div class="washi-tape"></div>
+      <h1 class="hero-title">Julie 的閱讀書櫃 · Julie's Reading Bookshelf</h1>
+      <!-- 規範：金句置於主標題正下方，比主標題小且為斜體次要顏色 -->
+      <p class="book-quote hero-quote">「在文字的森林裡緩慢漫步，與閃閃發光的靈魂不期而遇。」</p>
+      <p style="color: var(--text-secondary); max-width: 650px; margin: 0 auto; font-size: 0.98rem;">
+        歡迎來到我的手帳閱讀筆記本，這裡紀錄著每一本親自讀過的書、精選金句與最真實的個人心得。
+      </p>
+    </section>
+
+    <!-- 最新閱讀心得 -->
+    <section id="latest" style="margin-bottom: 3.5rem;">
+      <div style="display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 1.2rem;">
+        <div>
+          <h2 style="font-size: 1.5rem; display: flex; align-items: center; gap: 0.5rem;">
+            <span>📌</span>
+            <span class="underline-handdrawn">最新閱讀心得</span>
+          </h2>
+          <!-- 區塊標題下方金句 -->
+          <p class="book-quote">近期翻閱的精彩讀物，留下最深刻的感動與啟發。</p>
+        </div>
+      </div>
+
+      <div class="book-grid">
+
+        <!-- 最新心得卡片 1：外科醫生 -->
+        <article class="polaroid-card">
+          <div class="washi-tape tape-yellow"></div>
+          <div class="polaroid-photo">
+            <a href="content/lit-fiction/The-Surgeon.html" style="width: 100%; height: 100%; display: block;">
+              <img src="assets/images/the-surgeon.jpg" alt="外科醫生 書籍封面" onerror="this.src='https://covers.openlibrary.org/b/isbn/9789869507776-L.jpg'">
+            </a>
+          </div>
+          <div class="polaroid-caption">
+            <div style="display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 0.2rem;">
+              <span class="sticker-tag tag-pink">文學小說</span>
+              <span class="sticker-tag tag-orange">最新心得</span>
+            </div>
+            <div class="title-group">
+              <h3 class="book-title">
+                <a href="content/lit-fiction/The-Surgeon.html">外科醫生</a>
+              </h3>
+              <!-- 規範：書籍卡片金句置於主標題正下方 -->
+              <p class="book-quote">「他夜裡溜進她們的家，悄悄走進臥室，那些正在沉睡中的女人即將醒來，進入一個活生生的夢魘。」</p>
+            </div>
+            <p class="book-author">作者：泰絲·格里森</p>
+            <div class="star-rating">
+              <span class="star-fill">★★★★☆</span>
+              <span class="rating-number">4.0</span>
+            </div>
+            <div style="margin-top: 0.6rem;">
+              <a href="content/lit-fiction/The-Surgeon.html" class="btn-handdrawn" style="font-size: 0.85rem; padding: 0.35rem 0.8rem; width: 100%;">完整心得筆記 →</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 11 大書籍分類總覽選單 -->
+    <section id="categories" style="margin-bottom: 3.5rem;">
+      <div style="margin-bottom: 1.5rem;">
+        <h2 style="font-size: 1.5rem; display: flex; align-items: center; gap: 0.5rem;">
+          <span>🏷️</span>
+          <span class="underline-handdrawn">11 大書籍主題分類</span>
+        </h2>
+        <!-- 區塊標題下方金句 -->
+        <p class="book-quote">「知識如同百寶箱，按圖索驥便能找到心中嚮往的答案。」</p>
+      </div>
+
+      <div class="category-grid">
+
+        <!-- 1. 文學小說 -->
+        <a href="content/lit-fiction/index.html" class="category-card">
+          <span class="category-icon">📚</span>
+          <span class="category-name">文學小說</span>
+          <span class="category-count">Lit / Fiction · 輕小說 · 漫畫</span>
+        </a>
+
+        <!-- 2. 商業理財 -->
+        <a href="content/bus-finance/index.html" class="category-card">
+          <span class="category-icon">📈</span>
+          <span class="category-name">商業理財</span>
+          <span class="category-count">Bus / Finance · 投資 · 商業思維</span>
+        </a>
+
+        <!-- 3. 心理勵志 -->
+        <a href="content/psych-selfhelp/index.html" class="category-card">
+          <span class="category-icon">🌱</span>
+          <span class="category-name">心理勵志</span>
+          <span class="category-count">Psych / Self-Help · 個人成長</span>
+        </a>
+
+        <!-- 4. 人文社會 -->
+        <a href="content/hum-socsci/index.html" class="category-card">
+          <span class="category-icon">🏛️</span>
+          <span class="category-name">人文社會</span>
+          <span class="category-count">Hum / SocSci · 歷史 · 哲學</span>
+        </a>
+
+        <!-- 5. 自然科普 -->
+        <a href="content/nat-sci/index.html" class="category-card">
+          <span class="category-icon">🔬</span>
+          <span class="category-name">自然科普</span>
+          <span class="category-count">NatSci · 天文 · 生物 · 物理</span>
+        </a>
+
+        <!-- 6. 藝術設計 -->
+        <a href="content/art-design/index.html" class="category-card">
+          <span class="category-icon">🎨</span>
+          <span class="category-name">藝術設計</span>
+          <span class="category-count">Art / Design · 美學 · 建築</span>
+        </a>
+
+        <!-- 7. 生活風格 -->
+        <a href="content/lifestyle/index.html" class="category-card">
+          <span class="category-icon">☕</span>
+          <span class="category-name">生活風格</span>
+          <span class="category-count">Lifestyle · 飲食 · 旅遊 · 居家</span>
+        </a>
+
+        <!-- 8. 親子教養 / 兒童與青少年 -->
+        <a href="content/parenting-kids/index.html" class="category-card">
+          <span class="category-icon">🧸</span>
+          <span class="category-name">親子教養</span>
+          <span class="category-count">Parenting · Kids / YA · 繪本</span>
+        </a>
+
+        <!-- 9. 語言學習與考試 -->
+        <a href="content/language-exams/index.html" class="category-card">
+          <span class="category-icon">🗣️</span>
+          <span class="category-name">語言考試</span>
+          <span class="category-count">Lang Learn · Exams · 外語檢定</span>
+        </a>
+
+        <!-- 10. 電腦資訊 -->
+        <a href="content/comp-info/index.html" class="category-card">
+          <span class="category-icon">💻</span>
+          <span class="category-name">電腦資訊</span>
+          <span class="category-count">Comp / Info · 程式 · AI 技術</span>
+        </a>
+
+        <!-- 11. 宗教命理 -->
+        <a href="content/religion-divination/index.html" class="category-card">
+          <span class="category-icon">🔮</span>
+          <span class="category-name">宗教命理</span>
+          <span class="category-count">Rel / Divination · 信仰 · 哲理</span>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- 手帳便籤隨筆區塊 -->
+    <section class="sticky-note">
+      <div class="washi-tape tape-yellow"></div>
+      <h3 style="margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+        <span>📝</span>
+        <span>關於這個書櫃</span>
+      </h3>
+      <p style="font-size: 0.95rem; color: var(--text-secondary);">
+        希望這份筆記能為同在尋找好書的你，點亮一盞溫暖的閱讀夜燈。
+      </p>
+    </section>
+
+  </main>
+
+  <!-- 頁尾 -->
+  <footer class="site-footer">
+    <p class="footer-quote">「書卷多情似故人，晨昏憂樂每相親。」</p>
+    <p>© Julie 的閱讀書櫃 (Julie's Reading Bookshelf) · Hand-drawn Notebook Style</p>
+  </footer>
+
+</body>
+</html>

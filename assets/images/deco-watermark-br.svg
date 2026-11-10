@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280" width="280" height="280" fill="none">
+  <!-- Bottom Right: Ribbon Bows & Cherries Watermark -->
+  <g id="ribbons-and-cherries-br">
+    <!-- Big Charming Ribbon Bow (Top Right) -->
+    <g transform="translate(130, 25)">
+      <!-- Left Loop -->
+      <path d="M 50 38 C 12 16 5 48 45 44 Z" fill="#F8B195" stroke="#3D352E" stroke-width="2.6" stroke-linejoin="round"/>
+      <path d="M 25 30 C 34 34 42 37 45 40" stroke="#C06C84" stroke-width="1.6" stroke-linecap="round"/>
+      <!-- Right Loop -->
+      <path d="M 50 38 C 88 16 95 48 55 44 Z" fill="#F8B195" stroke="#3D352E" stroke-width="2.6" stroke-linejoin="round"/>
+      <path d="M 75 30 C 66 34 58 37 55 40" stroke="#C06C84" stroke-width="1.6" stroke-linecap="round"/>
+      <!-- Knot -->
+      <ellipse cx="50" cy="40" rx="8" ry="7" fill="#C06C84" stroke="#3D352E" stroke-width="2.2"/>
+      <!-- Left Tail with Fishtail cut -->
+      <path d="M 44 46 Q 26 72 18 84 Q 28 78 38 72 Q 45 60 46 48 Z" fill="#F8B195" stroke="#3D352E" stroke-width="2"/>
+      <!-- Right Tail with Fishtail cut -->
+      <path d="M 56 46 Q 74 72 82 84 Q 72 78 62 72 Q 55 60 54 48 Z" fill="#F8B195" stroke="#3D352E" stroke-width="2"/>
+    </g>
+
+    <!-- Twin Juicy Cherries (Center Left) -->
+    <g transform="translate(30, 90)">
+      <!-- Stems meeting at top -->
+      <path d="M 42 15 Q 30 32 24 50" stroke="#606C38" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+      <path d="M 42 15 Q 50 32 58 48" stroke="#606C38" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+      <!-- Two Cute Green Leaves -->
+      <path d="M 42 15 Q 56 6 65 14 Q 54 22 42 15 Z" fill="#81B29A" stroke="#3D352E" stroke-width="2"/>
+      <path d="M 42 15 Q 30 6 22 12 Q 32 20 42 15 Z" fill="#A8DADC" stroke="#3D352E" stroke-width="1.8"/>
+      <!-- Left Cherry -->
+      <circle cx="22" cy="56" r="14" fill="#E63946" stroke="#3D352E" stroke-width="2.4"/>
+      <ellipse cx="17" cy="51" rx="3.5" ry="5" fill="#FFFFFF" opacity="0.8"/>
+      <!-- Right Cherry -->
+      <circle cx="60" cy="54" r="14" fill="#D90429" stroke="#3D352E" stroke-width="2.4"/>
+      <ellipse cx="55" cy="49" rx="3.5" ry="5" fill="#FFFFFF" opacity="0.8"/>
+    </g>
+
+    <!-- Sweet Mini Ribbon Bow (Bottom Right) -->
+    <g transform="translate(160, 170) scale(0.9)">
+      <path d="M 35 28 C 10 12 8 40 32 36 Z" fill="#FDE2E4" stroke="#3D352E" stroke-width="2.2"/>
+      <path d="M 35 28 C 60 12 62 40 38 36 Z" fill="#FDE2E4" stroke="#3D352E" stroke-width="2.2"/>
+      <ellipse cx="35" cy="30" rx="6" ry="5" fill="#E07A5F" stroke="#3D352E" stroke-width="2"/>
+      <path d="M 31 34 Q 18 55 14 62 Q 22 56 30 52 Z" fill="#FDE2E4" stroke="#3D352E" stroke-width="1.8"/>
+      <path d="M 39 34 Q 52 55 56 62 Q 48 56 40 52 Z" fill="#FDE2E4" stroke="#3D352E" stroke-width="1.8"/>
+    </g>
+
+    <!-- Mini Cherries (Bottom Left) -->
+    <g transform="translate(55, 195) scale(0.75)">
+      <path d="M 30 10 Q 22 22 18 34" stroke="#606C38" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+      <path d="M 30 10 Q 35 22 40 33" stroke="#606C38" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+      <path d="M 30 10 Q 38 5 45 10 Q 38 15 30 10 Z" fill="#81B29A" stroke="#3D352E" stroke-width="1.8"/>
+      <circle cx="16" cy="40" r="10" fill="#E63946" stroke="#3D352E" stroke-width="2"/>
+      <ellipse cx="13" cy="37" rx="2.5" ry="3" fill="#FFFFFF" opacity="0.75"/>
+      <circle cx="42" cy="39" r="10" fill="#E76F51" stroke="#3D352E" stroke-width="2"/>
+      <ellipse cx="39" cy="36" rx="2.5" ry="3" fill="#FFFFFF" opacity="0.75"/>
+    </g>
+
+    <!-- Twinkle Stars -->
+    <path d="M 125 140 Q 128 144 132 144 Q 128 144 125 148 Q 125 144 121 144 Q 125 144 125 140 Z" fill="#E9C46A"/>
+    <path d="M 30 50 Q 33 54 37 54 Q 33 54 30 58 Q 30 54 26 54 Q 30 54 30 50 Z" fill="#81B29A"/>
+    <path d="M 245 140 Q 248 144 252 144 Q 248 144 245 148 Q 245 144 241 144 Q 245 144 245 140 Z" fill="#E07A5F"/>
+  </g>
+</svg>

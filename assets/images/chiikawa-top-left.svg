@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 260" width="280" height="260" fill="none">
+  <!-- Chiikawa Peeking & Reading Doodles (Top Left) -->
+  <g id="chiikawa-reading" transform="translate(10, 15)">
+    <!-- Little decorative stars and doodles -->
+    <path d="M 220 30 Q 225 35 230 35 Q 225 35 220 40 Q 220 35 215 35 Q 220 35 220 30 Z" fill="#E9C46A" opacity="0.8"/>
+    <path d="M 30 180 Q 34 184 38 184 Q 34 184 30 188 Q 30 184 26 184 Q 30 184 30 180 Z" fill="#E07A5F" opacity="0.7"/>
+    <circle cx="245" cy="70" r="3" fill="#81B29A" opacity="0.6"/>
+    <circle cx="25" cy="90" r="4" fill="#E9C46A" opacity="0.6"/>
+
+    <!-- Floating Heart/Flower -->
+    <path d="M 210 110 C 210 102 218 98 224 104 C 230 98 238 102 238 110 C 238 120 224 128 224 128 C 224 128 210 120 210 110 Z" fill="#FDE2E4" stroke="#3D352E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Chiikawa Body (Round, plump) -->
+    <!-- Left Ear -->
+    <path d="M 72 75 C 60 55 82 40 94 58" fill="#FFFDF9" stroke="#3D352E" stroke-width="3.5" stroke-linecap="round"/>
+    <ellipse cx="80" cy="62" rx="4" ry="6" fill="#FDE2E4"/>
+
+    <!-- Right Ear -->
+    <path d="M 166 58 C 178 40 200 55 188 75" fill="#FFFDF9" stroke="#3D352E" stroke-width="3.5" stroke-linecap="round"/>
+    <ellipse cx="180" cy="62" rx="4" ry="6" fill="#FDE2E4"/>
+
+    <!-- Main Head / Body Outline -->
+    <path d="M 70 82 C 50 115 50 165 80 195 C 105 215 155 215 180 195 C 210 165 210 115 190 82 C 175 60 85 60 70 82 Z" fill="#FFFDF9" stroke="#3D352E" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Cheeks (Blushing pink) -->
+    <ellipse cx="82" cy="138" rx="11" ry="7" fill="#FFB5B5" opacity="0.85"/>
+    <line x1="75" y1="138" x2="89" y2="138" stroke="#E07A5F" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="77" y1="142" x2="87" y2="142" stroke="#E07A5F" stroke-width="1.5" stroke-linecap="round"/>
+
+    <ellipse cx="178" cy="138" rx="11" ry="7" fill="#FFB5B5" opacity="0.85"/>
+    <line x1="171" y1="138" x2="185" y2="138" stroke="#E07A5F" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="173" y1="142" x2="183" y2="142" stroke="#E07A5F" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- Characteristic Wavy Eyebrows (八字波浪眉) -->
+    <path d="M 92 105 Q 98 102 104 106" stroke="#3D352E" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <path d="M 156 106 Q 162 102 168 105" stroke="#3D352E" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+    <!-- Big Eyes (with white sparkle highlights) -->
+    <ellipse cx="102" cy="122" rx="7.5" ry="9" fill="#3D352E"/>
+    <circle cx="100" cy="119" r="2.8" fill="#FFFFFF"/>
+    <circle cx="104" cy="125" r="1.2" fill="#FFFFFF"/>
+
+    <ellipse cx="158" cy="122" rx="7.5" ry="9" fill="#3D352E"/>
+    <circle cx="156" cy="119" r="2.8" fill="#FFFFFF"/>
+    <circle cx="160" cy="125" r="1.2" fill="#FFFFFF"/>
+
+    <!-- Tiny Nose and Inverted 'ω' Mouth -->
+    <ellipse cx="130" cy="126" rx="2" ry="1.5" fill="#3D352E"/>
+    <path d="M 124 133 Q 127 137 130 134 Q 133 137 136 133" stroke="#3D352E" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+
+    <!-- Tiny Feet -->
+    <path d="M 98 206 C 96 215 110 218 114 208" fill="#FFFDF9" stroke="#3D352E" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 146 208 C 150 218 164 215 162 206" fill="#FFFDF9" stroke="#3D352E" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Paws holding a Book -->
+    <!-- Open Book -->
+    <path d="M 130 168 L 92 162 C 86 161 82 166 83 172 L 87 200 C 88 204 93 207 98 206 L 130 196 L 162 206 C 167 207 172 204 173 200 L 177 172 C 178 166 174 161 168 162 Z" fill="#FFF3B0" stroke="#3D352E" stroke-width="3" stroke-linejoin="round"/>
+    <!-- Book Spine & Pages -->
+    <path d="M 130 168 L 130 196" stroke="#E07A5F" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 96 172 Q 112 170 126 175" stroke="#3D352E" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+    <path d="M 98 180 Q 112 178 126 183" stroke="#3D352E" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+    <path d="M 134 175 Q 148 170 164 172" stroke="#3D352E" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+    <path d="M 134 183 Q 148 178 162 180" stroke="#3D352E" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- Paws on Book -->
+    <ellipse cx="88" cy="172" rx="7" ry="6" fill="#FFFDF9" stroke="#3D352E" stroke-width="3"/>
+    <ellipse cx="172" cy="172" rx="7" ry="6" fill="#FFFDF9" stroke="#3D352E" stroke-width="3"/>
+  </g>
+</svg>
